@@ -10,7 +10,7 @@ start_speed = 9./90
 #print(type(11./90))
 #print(11./90)
 
-def normal(str):
+def typeNormal(str):
     for c in str + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
@@ -19,7 +19,7 @@ def normal(str):
 #normal_type_print(input(":"))
 
 
-def human(str):
+def typeHuman(str):
     speed = start_speed
     for c in str:
         sys.stdout.write(c)
