@@ -3,10 +3,11 @@ import codecs
 import os
 
 VERSION = '0.0.1'
-DESCRIPTION = 'type'
+DESCRIPTION = 'Print like someone is typing'
+LONG_DESCRIPTION = 'A package that print provided string letter by letter'
 
 classifiers=[
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
@@ -23,6 +24,8 @@ setup(
     author_email="<atharv.bhandvalkar@gmail.com>",
     license='MIT',
     description=DESCRIPTION,
+    long_description_content_type="text/markdown",
+    long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     install_requires=[],
     keywords=['python'],
